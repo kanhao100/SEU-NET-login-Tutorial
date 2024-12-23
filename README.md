@@ -18,7 +18,6 @@ Replace the following parameters in the curl command with your information:
 - `地址`: Your IP address IP地址
 
 
-
 ## How to get your IP address 如何获取IP地址
 确认连接上校园网。
 
@@ -37,6 +36,10 @@ or 或者:
 curl baidu.com
 ```
 then you will see the IP address in the response.
+```bash
+<NextuRL>http://202.119.25.2/a79.htm?userIP=你的IP地址&wlanacname=sPL NetEngine8000F8</NextURL>
+```
+
 
 ## 鸣谢
 
@@ -44,6 +47,6 @@ https://github.com/ChenYuWuAi/seu-autologin
 
 https://github.com/CleverPuppy/seu-wlan-logintool
 
-脚本还是不如复制一行命令简单。
+脚本还是不如复制一行命令简单，而且我们不需要定时执行，只需要初始连接的时候执行一次即可。
 
 
