@@ -9,6 +9,11 @@ One command to authenticate SEU campus network with persistent connection enable
 ```bash
 curl "https://w.seu.edu.cn:801/eportal/?c=Portal&a=login&callback=dr1003&login_method=1&user_account=%2C0%2C你的一卡通号&user_password=你的密码&wlan_user_ip=你的IP地址"
 ```
+如果不行，很有可能是DNS无法解析`w.seu.edu.cn`，可以尝试下面的：
+
+```bash
+curl "https://202.119.25.2:801/eportal/?c=Portal&a=login&callback=dr1003&login_method=1&user_account=%2C0%2C你的一卡通号&user_password=你的密码&wlan_user_ip=你的IP地址"
+```
 
 Replace the following parameters in the curl command with your information:
 请将以下命令中的参数替换为你的信息：
