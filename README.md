@@ -4,6 +4,9 @@
 终端一行命令完成东南大学校园网认证，默认开启无感知认证，无需重复执行。  
 One command to authenticate SEU campus network with persistent connection enabled by default.
 
+## 使用场景
+试想，你使用一个只有128MB RAM的嵌入式设备(软路由等)，进入了Linux终端，插上校园网网线或者连接上了`SEU-WLAN`却不知道如何认证。
+
 ## Usage 使用方法
 
 ```bash
